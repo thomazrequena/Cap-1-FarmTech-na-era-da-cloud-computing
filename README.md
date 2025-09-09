@@ -78,3 +78,21 @@ Contém os registros de culturas agrícolas e variáveis climáticas:
    ```bash
    git clone https://github.com/thomazrequena/Cap-1-FarmTech-na-era-da-cloud-computing.git
    cd Cap-1-FarmTech-na-era-da-cloud-computing
+
+   ---
+
+💰 Custos em Nuvem (Amazon EC2)
+
+Para simular os custos do projeto na nuvem, foi utilizada a **AWS Pricing Calculator** considerando uma instância `t4g.micro` com Linux (Savings Plan de 3 anos, sem upfront).
+
+📍 Comparação de custos entre Brasil e EUA:
+
+| Região                  | Custo Mensal | Custo Anual |
+|-------------------------|--------------|-------------|
+| 🇧🇷 South America (São Paulo) | **US$ 4,89**   | **US$ 58,68** |
+| 🇺🇸 US East (N. Virginia)     | **US$ 3,07**   | **US$ 36,84** |
+
+📊 **Insight**: Executar a mesma instância no Brasil custa cerca de **59% a mais** do que nos EUA, devido às diferenças regionais de preços da AWS:contentReference[oaicite:1]{index=1}.
+
+---
+
